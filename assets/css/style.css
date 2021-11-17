@@ -176,17 +176,26 @@ button {
 }
 .main_manu ul li a {
 	font-size: 16px;
-	font-weight: 500;
+	font-weight: 600;
 	font-stretch: normal;
 	font-style: normal;
 	line-height: normal;
 	letter-spacing: 1.33px;
 	color: #000;
-	margin-right: 50px;
+	margin-right: 46px;
 	display: inline-block;
 	transition: 0.5s;
 }
 .main_manu ul li a:hover {
 	transition: 0.5s;
 	color: #00c1d5;
+}
+.main_manu ul li:last-child a {
+	color: #00c1d5;
+	border-radius: 4px;
+	border: solid 2px #00c1d5;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	padding: 4px 12px;
 }
