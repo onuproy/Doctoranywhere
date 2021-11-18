@@ -195,7 +195,12 @@ p{
 .bg_white{
   background-color: white;
 }
-
+.pt_0{
+  padding-top: 0px;
+}
+.pb_0{
+  padding-bottom: 0px;
+}
 
 
 
@@ -301,4 +306,130 @@ p{
 }
 .articele_title p {
 	margin-bottom: 30px;
+}
+
+.blog_text{
+  padding: 15px 30px 28px;
+}
+.articel_title h3 a {
+	font-family: Muli;
+	font-size: 16px;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.23px;
+	color: #333333;
+	text-align: left;
+	margin-top: 10px;
+	text-transform: uppercase;
+  margin-bottom: 10px;
+  display: inline-block;
+  transition: all .4s ease-in-out 0s;
+}
+.blog_single_item {
+	border-radius: 4px;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+	background-color: #ffffff;
+	margin-bottom: 5px;
+	margin-right: 2px;
+	margin-left: 2px;
+}
+.blog_imge {
+	height: 190px;
+	overflow: hidden;
+}
+.blog_imge img {
+	object-fit: cover;
+}
+.published {
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.92;
+	letter-spacing: 0.17px;
+	text-align: right;
+	color: #97999b;
+	text-transform: uppercase;
+}
+.entry_summary {
+	margin-top: 10px;
+	font-family: Muli;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: 0.2px;
+	color: #101820;
+	text-align: left;
+}
+.lvca_entry_meta {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lvca_terms {
+	font-family: Muli;
+	font-size: 12px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.92;
+	letter-spacing: 0.17px;
+	color: #00c1d5;
+	text-transform: uppercase;
+}
+.articel_title h3 a:hover {
+  color: #888;
+}
+.owl-prev {
+	position: absolute;
+	left: -41px;
+	top: 0;
+	margin: auto;
+	bottom: 0;
+	font-size: 24px !important;
+	color: #aaa !important;
+	overflow: hidden;
+	width: 36px;
+	height: 36px;
+	background: #FFF !important;
+	border-radius: 50%;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.owl-next {
+	position: absolute;
+	right: -41px;
+	top: 0;
+	margin: auto;
+	bottom: 0;
+	font-size: 24px !important;
+	color: #aaa !important;
+	overflow: hidden;
+	width: 36px;
+	height: 36px;
+	background: #FFF !important;
+	border-radius: 50%;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1) !important;
+}
+.view_all a {
+	background-color: #00c1d5;
+	font-family: 'Muli';
+	border-radius: 4px;
+	padding: 10px 30px;
+	display: inline-block;
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	cursor: pointer;
+	font-weight: 700;
+}
+.home_clinic_section{
+  background-image: url(../images/banner/da-virtual-clinic.jpg) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
 }
