@@ -540,3 +540,38 @@ p strong {
 	padding-bottom: 200px ;
 	background-image: url('../images/banner/DA-rewards-desktop.jpg');
 }
+.featured_logo {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.featured_logo_img {
+	flex: 0 0 20%;
+	max-width: 20%;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin: 25px 0px;
+}
+.featured_on_section {
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+.da_clinic_section_seven{
+	padding-top: 230px;
+	padding-bottom: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url('../images/banner/take-charge-of-your-health\(1\).jpg');
+}
+.online_link a {
+	margin-right: 15px;
+	cursor: pointer;
+}
+.online_link {
+	display: flex;
+	justify-content: flex-start;
+	margin-top: 10px;
+}
