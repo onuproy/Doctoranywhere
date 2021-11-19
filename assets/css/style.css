@@ -192,6 +192,12 @@ p{
   letter-spacing: 0.26px;
   color: #101820;
 }
+p strong {
+	color: #101820;
+	font-size: 18px;
+	padding-bottom: 8px;
+	display: inline-block;
+}
 .bg_white{
   background-color: white;
 }
@@ -217,6 +223,7 @@ p{
 	border-color: #00c1d5;
 	margin-top: 15px !important;
 	transition: 0.5s;
+	display: inline-block;
 }
 .small_button a:hover{
 	background-color: #101820;
@@ -475,5 +482,61 @@ p{
 	margin-bottom: 17px;
 }
 .clinic_left{
+	padding-top: 50px;
 	padding-left: 60px;
+	padding-bottom: 30px;
+}
+.chinic_image {
+	padding-left: 175px;
+}
+.da_clinic_section{
+	background-image: url('../images/banner/da-clinic@2x-scaled.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 150px;
+}
+.section_similer_text .small_button {
+	padding-top: 20px;
+}
+
+.da_clinic_section_two{
+	background-image: url('../images/banner/da-home-care@2x-scaled.jpg');
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 230px;
+	padding-bottom: 200px;
+}
+.da_clinic_section_three {
+	padding-top: 230px ;
+	padding-bottom: 200px ;
+	background-image: url('../images/banner/chronic-disease@2x-scaled.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.da_clinic_section_four {
+	padding-top: 230px ;
+	padding-bottom: 200px ;
+	background-image: url('../images/banner/mentalwellness-mainwebsite.jpg');
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+}
+.da_clinic_section_five {
+	padding-top: 230px ;
+	padding-bottom: 200px ;
+	background-image: url('../images/banner/da-marketplace-scaled.jpg');
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+}
+.da_clinic_section_six{
+	background-position: center ;
+	background-repeat: no-repeat ;
+	background-size: cover ;
+	padding-top: 230px ;
+	padding-bottom: 200px ;
+	background-image: url('../images/banner/DA-rewards-desktop.jpg');
 }
