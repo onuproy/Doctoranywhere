@@ -495,11 +495,11 @@ p strong {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-bottom: 150px;
+	padding-top: 70px;
 }
 .section_similer_text .small_button {
 	padding-top: 20px;
 }
-
 .da_clinic_section_two{
 	background-image: url('../images/banner/da-home-care@2x-scaled.jpg');
 	background-position: center ;
@@ -575,6 +575,57 @@ p strong {
 	justify-content: flex-start;
 	margin-top: 10px;
 }
+.wpb_wrapper {
+	padding-top: 45px;
+	padding-bottom: 15px;
+	border-radius: 4px;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.18);
+	background-color: #ffffff;
+	position: relative;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	height: 109px;
+}
+.wpb_wrapper_text p {
+	color: #101820;
+	font-size: 14px;
+}
+.half_circle {
+	width: 85px;
+	height: 43px;
+	background-color: #FFF;
+	border-top-left-radius: 110px;
+	border-top-right-radius: 110px;
+	border: 0px solid gray;
+	border-bottom: 0;
+	top: -43px;
+	right: 50%;
+	transform: translate(50%,0%);
+	padding-top: 16px;
+	position: absolute;
+	text-align: center;
+	box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.18);
+}
+.half_circle img {
+	width: 65px;
+	position: relative;
+	z-index: 2;
+	max-height: 54px;
+}
+.half_circle .white_line {
+	border: 5px solid white;
+	position: Absolute;
+	bottom: -8px;
+	width: 100%;
+	z-index: 1;
+}
+.da_chinic_row{
+	margin-top: 234px;
+}
+
+
+
 
 /* Footer Css  */
 .footer-area {
