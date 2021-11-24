@@ -10,10 +10,10 @@ jQuery(document).ready(function(){
 		dots:false,
 		responsive:{
 			0:{
-				items:2,
+				items:1,
 			},
-			414:{
-				items:3,
+			576:{
+				items:2,
 			
 			},
 			768:{
@@ -155,9 +155,7 @@ jQuery(document).ready(function(){
    jQuery('.country_dropdown').click(function () {
 	jQuery('.country_dropdown span').toggleClass('active_arrow');
 		return false;
-		
 	});
-	
 	jQuery('.country_dropdown ul li').click(function () {
 		jQuery('.country_dropdown span').removeClass('active_arrow');
 		return false;

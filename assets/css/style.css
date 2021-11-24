@@ -221,9 +221,9 @@ p strong {
 .small_button a:hover{
 	background-color: #101820;
 }
-#page-top{
-	overflow: hidden;
-	overflow-y: scroll;
+#page-top {
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
 }
 
 /*========================================
@@ -885,6 +885,7 @@ p strong {
 	box-shadow: none;
 	border-radius: 4px;
 	display: none;
+	z-index: 9999;
 }
 .country_dropdown .list li {
     display: block;
@@ -946,4 +947,19 @@ p strong {
 	border-top: 1px solid #FFF;
 	border-right: 1px solid #FFF;
 	transform: rotate(315deg);
+}
+.nav_icon{
+	visibility: hidden;
+	opacity: 0;
+	display: none;
+}
+.mobile_man_img{
+	visibility: hidden;
+	opacity: 0;
+	display: none;
+}
+.accordionExample{
+	visibility: hidden;
+	opacity: 0;
+	display: none;
 }
