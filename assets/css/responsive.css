@@ -79,6 +79,9 @@
 		padding-top: 206px !important;
 		padding-bottom: 180px !important;
 	}
+	.gallery-filtering .blog_single_item .blog_text {
+		padding: 15px 15px 28px;
+	}
 
 
 }
@@ -208,9 +211,13 @@
 		padding-top: 21px;
 		padding-bottom: 0px;
 	}
-
-
-
+	#filters button {
+		font-size: 15px;
+		margin-left: 23px;
+		margin-right: 23px;
+		margin-bottom: 11px;
+		height: 26px;
+	}
 }
 @media all and (max-width: 767px) {
 	.blog_text {
