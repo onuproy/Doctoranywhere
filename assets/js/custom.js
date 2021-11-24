@@ -72,8 +72,102 @@ jQuery(document).ready(function(){
 		  $( this ).addClass('is-checked');
 		});
 	});
+
+
+	// Select js 
+	 // Variable of content  
+
+	 var myylist = $("#list");
+	 var myselect = $(".select");
+   
+   
+	 // Show/hide function  
+   
+	 myselect.on('click', function(){
+	 myylist.toggle();});
+   
+   for(var i = 0; i < 7; i++ ) {  
+	   if(i == 0) {
+		  $('#list #iq').on('click', function(){
+			 $("#select img").attr("src",$('#iq img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   } else if (i == 1) {
+		$('#list #eg').on('click', function(){
+			 $("#select img").attr("src",$('#eg img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   } else if (i == 2) {
+		 $('#list #ir').on('click', function(){
+			 $("#select img").attr("src",$('#ir img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   } else if (i == 3) {
+		$('#list #sy').on('click', function(){
+			 $("#select img").attr("src",$('#sy img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   } else if (i == 4) {
+		 $('#list #qa').on('click', function(){
+			 $("#select img").attr("src",$('#qa img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   } else if (i == 5) {
+		 $('#list #tu').on('click', function(){
+			 $("#select img").attr("src",$('#tu img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   } else if (i == 6) {
+		 $('#list #dz').on('click', function(){
+			 $("#select img").attr("src",$('#dz img').attr('src'));
+			 $("#select span");
+			 $("#select span").text($(this).text());
+			 $("#list").hide();
+		  });
+	   }
+	   
+   
+   }
+   
+   });
+   
+   // JavaScript 
+   // close list when click on anywhere
+   window.addEventListener('mouseup', function(event){
+   var ullist = document.getElementById('list');
+   if(event.target != ullist && event.target.parentNode != ullist) {
+	 ullist.style.display = 'none';
+   }
+   //Dropdown menu 
+
+   jQuery('.country_dropdown').click(function () {
+	jQuery('.country_dropdown span').toggleClass('active_arrow');
+		return false;
+		
+	});
+	
+	jQuery('.country_dropdown ul li').click(function () {
+		jQuery('.country_dropdown span').removeClass('active_arrow');
+		return false;
+			
+	});
+
+	
+
+		
+		
 	
 
 });
-
-	
